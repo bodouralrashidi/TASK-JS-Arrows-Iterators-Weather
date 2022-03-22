@@ -22,7 +22,7 @@ const logger = function (array) {
  *   C = (F - 32) * (5/9)
  ************************************/
 const toCelsius = function (temperatures) {
-  return temperatures.map((temp) => Math.round((temp - 32) * (5 / 9)));
+  return temperatures.map((temp) => (temp - 32) * (5 / 9));
 };
 
 /**************************************
